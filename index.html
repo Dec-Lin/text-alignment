@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+  <style>
+    div{
+      border:1px solid red;
+      font-size: 20px;
+    }
+    span{ 
+      border:1px solid green;
+      display:inline-block;
+      width: 4em;
+      text-align: justify;
+      height: 20px;
+      line-height: 20px;
+      overflow: hidden;
+    }
+    span::after{
+      content:'';
+      display: inline-block;
+      width:100%;
+      border: 1px solid blue;
+    }
+  </style>
+<body>
+  <div>
+    <span>姓名</span><br>
+    <span>联系方式</span>
+  </div>
+</body>
+</html>
